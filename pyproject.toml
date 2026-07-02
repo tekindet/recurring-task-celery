@@ -1,0 +1,10 @@
+[project]
+name = "twain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery>=5.6.3",
+    "redis>=8.0.1",
+]
